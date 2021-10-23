@@ -12,7 +12,7 @@ h2 {
 
 h1 {
   font-family: 'Oswald', sans-serif;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 input {
@@ -37,7 +37,7 @@ h1 {font-family: 'Oswald', sans-serif;}
 }
 
 /*TABLE*/
-table {
+.rewards {
     width: 90%;
     margin-top: 2em;
     margin-bottom: 2.5em;
@@ -48,22 +48,20 @@ table {
     font-size: 1.5em;
 }
 
+.toptable {
+  margin-top: 0;
+  width: 100%;
+}
+
 td {
     padding-left:1em;
     font-family: 'Oswald', sans-serif;
     padding-top:0.5em;
-    padding-bottom:0.5em;
-    width: 20%;
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
-.td2 {
-  padding-left:1em;
-  font-family: 'Oswald', sans-serif;
-  padding-top:0.5em;
-  padding-bottom:0.5em;
-  width: 20%;
-  font-size: 1.5em;
+.trcolor:hover {
+  background-color: #dff5ea;
 }
 
 /*TYPEWRITER EFFECT*/
@@ -196,6 +194,78 @@ td {
     to {opacity:1 ;}
   }
 
-  input[type="text"]{
-    border: 1px solid #cccccc;
+/*BUTTON*/
+a.button1 {
+    font-size: 2.4em;
+    color: white;
+    background-color: black;
+    border-radius: 2em;
+    display:inline-block;
+    padding: 0.3em, 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+a.button1:hover{
+  background-color: #929292;
+}
+
+@media all {
+  a.button1 {
+    display: block;
+    margin: 0.2em auto;
+    cursor:pointer;
   }
+}
+
+a.button2 {
+  font-size: 1em;
+  color: white;
+  background-color: #AB94C9;
+  border-radius: 2em;
+  display:inline-block;
+  padding: 0.3em, 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+a.button2:hover{
+background-color: #929292;
+}
+
+@media all {
+  a.button2 {
+    display: block;
+    margin: 0.2em auto;
+    cursor:pointer;
+  }
+}
+
+a.button3 {
+  font-size: 1em;
+  color: white;
+  background-color: #a8dbc2;
+  border-radius: 2em;
+  display:inline-block;
+  padding: 0.3em, 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+a.button3:hover{
+background-color: #929292;
+}
+
+@media all {
+  a.button3 {
+    display: block;
+    margin: 0.2em auto;
+    cursor:pointer;
+  }
+}
